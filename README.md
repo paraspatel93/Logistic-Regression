@@ -27,5 +27,4 @@ feature set or the Model 2 feature set—that is, if feature_flag==1 use Model
 As an example,the following command line would run your
 program on the toy data provided for 2 epochs using the features from Model 1.
 
-$ python tagger.py toytrain.tsv toyvalidation.tsv toytest.tsv \
-mode1train_out.labels mode1test_out.labels mode1metrics_out.txt 2 1
+$ python tagger.py toytrain.tsv toyvalidation.tsv toytest.tsv mode1train_out.labels mode1test_out.labels mode1metrics_out.txt 2 1
